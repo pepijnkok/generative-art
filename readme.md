@@ -6,8 +6,8 @@
 * **Naam:** Pepijn Kok
 * **Klas:** VID-1
 * **Minor:** Visual Interface Design
-* **Favoriete dier:** `Zeeotters zijn te gek!`
-* **Startniveau:** `blauw/rood/zwart`
+* **Favoriete dier:** Panda's zijn cool
+* **Startniveau:** Blauw
 
 ## Concept
 
