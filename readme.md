@@ -3,9 +3,9 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
-* **Minor:** `Visual Interface Design`
+* **Naam:** Pepijn Kok
+* **Klas:** VID-1
+* **Minor:** Visual Interface Design
 * **Favoriete dier:** `Zeeotters zijn te gek!`
 * **Startniveau:** `blauw/rood/zwart`
 
