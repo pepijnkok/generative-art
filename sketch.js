@@ -8,16 +8,20 @@ function preload(){
 
 //only runs once
 function setup() {
-createCanvas(img.width, img.height);
+createCanvas(750, 500);
 
 //making a slider
 sliderPoint = createSlider(0, 20, 0);
-sliderPoint.position(750, 600);
+sliderPoint.position(800, 585);
 sliderPoint.style('width', '200px');
 
+sliderPoint.style ('z-index: +10')
+
 sliderBackground = createSlider(0, 255, 255);
-sliderBackground.position(500, 600);
+sliderBackground.position(450, 585);
 sliderBackground.style('width', '200px');
+
+sliderBackground.style ('z-index: +10')
 }
 
 // loops endless

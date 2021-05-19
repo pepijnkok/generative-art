@@ -6,8 +6,15 @@
   box-sizing: border-box;
 }
 
+.frame {
+position: absolute;
+margin: 0 18em;
+width: 60%;
+z-index: +1;
+}
+
 canvas {
-  display: block;
-  margin: 1em auto 0;
+  margin: 5em 22em;
+  position: absolute;
   border-radius: 1em;
 }
