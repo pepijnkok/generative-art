@@ -6,7 +6,7 @@
 * **Naam:** Pepijn Kok
 * **Klas:** VID-1
 * **Minor:** Visual Interface Design
-* **Favoriete dier:** Panda's zijn cool
+* **Favoriete dier:** Panda's
 * **Startniveau:** Blauw
 
 ## Concept
@@ -36,6 +36,6 @@
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
+* Bron 1: https://www.youtube.com/watch?v=me04ZrTJqWA
 * `Link naar bron 2`
 * `Link naar bron 3`
