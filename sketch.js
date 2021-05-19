@@ -1,45 +1,48 @@
-/* 👇 Start writing your p5.js code here */
+let img;
+let cnv;
+let slider;
 
-var hue;
+function preload(){
+  img = loadImage('images/gogh.jpeg');
+}
 
+//only runs once
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  
-  
-  
-  noFill();
-  background(30);
-  hue = 0;
+createCanvas(img.width, img.height);
+
+//making a slider
+sliderPoint = createSlider(0, 20, 0);
+sliderPoint.position(750, 600);
+sliderPoint.style('width', '200px');
+
+sliderBackground = createSlider(0, 255, 255);
+sliderBackground.position(500, 600);
+sliderBackground.style('width', '200px');
 }
 
+// loops endless
 function draw() {
-noStroke();
-fill(220);
 
-rect (800,180, 280,125)
-rect (580,250, 500,125)
+  let valPoint = sliderPoint.value();
+  let valBackground = sliderBackground.value();
+  background(valBackground);
 
-triangle (450,375, 600,375, 580, 250)
-triangle (580,250, 800,180, 950, 250)
+  // acces pixel information of image
+  for(let col = 0; col< img.width; col+=10){
+    for(let row = 0; row <img.height; row+=10){
+      let xPos = col;
+      let yPos = row;
+      let c = img.get(xPos,yPos);
 
-.style ('z-index', '-1')
-
+      strokeWeight(valPoint);
+      stroke(color(c));
+      point(xPos,yPos); 
+    }
   }
-
-function mouseDragged() {
-  if (hue > 360) {
-    hue = 0;
-  } else {
-    hue += 10;
-  }
-  colorMode(HSL, 360);
-  noStroke();
-  fill(hue, 200, 200);
-  ellipse(mouseX, mouseY, 25, 25);
 }
 
-function keyPressed() {
-  if (keyCode == 82) {
-      hue = 0;
+function keyPressed(){
+  if (key === 's'){
+    saveCanvas("art.jpg");
   }
 }
