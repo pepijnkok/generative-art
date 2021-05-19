@@ -14,6 +14,8 @@
 Mijn concept is om een kunstwerk generatief maken. Hiervoor heb ik gekozen voor het kunstwerk 'Sterrennacht' van Vincent van Gogh. Ik heb voor dit kunstwerk gekozen omdat het mij dit erg vet leek om generatief uit te werken vanwege de manier waarop het schilderij is geschilderd.
 ![Sterrennacht](https://user-images.githubusercontent.com/59015908/118884023-396f6780-b8f6-11eb-9cd7-3910796fe18d.jpg)
 
+Live link: https://pepijnkok.github.io/generative-art/
+Het prototype is niet response dus het beste is om dit op laptop formaat (1440x810) te bekijken
 
 ## Features
 
@@ -41,10 +43,6 @@ Als laatste voegde ik een functie toe om je eigen customisation van het kunstwer
 ![Custom Sterrennacht](https://user-images.githubusercontent.com/59015908/118888276-be10b480-b8fb-11eb-9415-d08ed8958878.png)
 
 Het coderen zelf hiervan ging mij ook wel aardig goed af, ook al was het wel soms even struggelen, veel tutorial videos kijken en googelen.
-
-Live link: https://pepijnkok.github.io/generative-art/
-Het prototype is niet response dus het beste is om dit op laptop formaat (1440x810) te bekijken
-
 
 ## Bronnenlijst
 
