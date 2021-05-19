@@ -42,6 +42,9 @@ Als laatste voegde ik een functie toe om je eigen customisation van het kunstwer
 
 Het coderen zelf hiervan ging mij ook wel aardig goed af, ook al was het wel soms even struggelen, veel tutorial videos kijken en googelen.
 
+Live link: https://pepijnkok.github.io/generative-art/
+Het prototype is niet response dus het beste is om dit op laptop formaat (1440x810) te bekijken
+
 
 ## Bronnenlijst
 
