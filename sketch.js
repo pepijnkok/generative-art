@@ -3,7 +3,22 @@ let cnv;
 let slider;
 
 function preload(){
-  img = loadImage('images/gogh.jpeg');
+  
+  //Load images
+  let gogh0 = loadImage('images/gogh1.jpeg');
+  let gogh1 = loadImage('images/gogh1.jpeg');
+  let gogh2 = loadImage('images/gogh2.jpeg');
+  let gogh3 = loadImage('images/gogh3.jpeg');
+  let gogh4 = loadImage('images/gogh4.jpeg');
+  let gogh5 = loadImage('images/gogh5.jpeg');
+  let gogh6 = loadImage('images/gogh6.jpeg');
+  picture = [gogh0, gogh1, gogh2, gogh3,gogh4, gogh5, gogh6];
+  
+  //Pick random number from array
+  let number = Math.floor(Math.random() * (picture.length - 1) + 1);
+  
+  //Random image
+  img = picture[number];
 }
 
 //Setup only runs once
