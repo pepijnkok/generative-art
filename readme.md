@@ -48,7 +48,7 @@ Als laatste voegde ik een functie toe om je eigen customisation van het kunstwer
 Het coderen zelf hiervan ging mij ook wel aardig goed af, ook al was het wel soms even struggelen, veel tutorial videos kijken en googelen.
 
 ### Voortgang voor herkansing
-Ik kreeg duidelijke feedback te horen over wat ik moest veranderen. Deze veranderingen gingen mij goed af en ik ben blij met het nieuwe resultaat. Ik heb alle elementen nu ook gecentreerd zodat het de gebruiker op elk device dezelfde ervaring met het kunstwerk heeft.
+Ik kreeg duidelijke feedback te horen over wat ik moest veranderen. Dit ging voornamelijk over het gebruik van de slider en dat er niet veel generativiteit in het kunstwerk zat. Deze feedback heb ik goed opgepakt en het veranderen van het kunstwerk ging mij goed af. Ik heb alle elementen nu ook gecentreerd zodat het de gebruiker op elk device dezelfde ervaring met het kunstwerk heeft. Ik ben erg blij met het nieuwe resultaat. 
 
 ![Screenshot 2021-06-20 at 21 19 17](https://user-images.githubusercontent.com/59015908/122685667-30332c80-d20d-11eb-9bda-66f19306d63c.png)
 
