@@ -9,18 +9,21 @@
 * **Favoriete dier:** Panda's
 * **Startniveau:** Blauw
 
-## Concept
-
+## Concept v1
 Mijn concept is om een kunstwerk generatief maken. Hiervoor heb ik gekozen voor het kunstwerk 'Sterrennacht' van Vincent van Gogh. Ik heb voor dit kunstwerk gekozen omdat het mij dit erg vet leek om generatief uit te werken vanwege de manier waarop het schilderij is geschilderd.
 ![Sterrennacht](https://user-images.githubusercontent.com/59015908/118884023-396f6780-b8f6-11eb-9cd7-3910796fe18d.jpg)
 
+## Concept v2
+Voor mijn herkansing heb ik meerdere kunstwerken van van Gogh in mijn kunstwerk verwerkt. 1 van de 6 kuntwerken wordt random getoond wanneer de pagina wordt ingeladen. De afbeeldingen zijn te vinden in de 'images' folder. Ik heb het ook meer als een geheel van Gogh kunstwerk laten voelen door een passende achtergrond en lettertype toe te passen.
+
 Live link: https://pepijnkok.github.io/generative-art/
-Het prototype is niet response dus het beste is om dit op laptop formaat (1440x810) te bekijken
 
-## Features
-
+## Features v1
 De interactie bij dit project zit bij de sliders. De linker slider is om de achtergrond te veranderen. Deze gaat van (0) tot (255) dus van zwart tot wit.
 De rechter slider is om de strokeWeight van de rondjes aan te passen. Deze begint op de 0 en gaat maximaal tot de 10 qua strokeWeight. Hierdoor zullen de rondjes dikker worden.
+
+## Features v2
+De interactie heb ik veranderd voor de herkansing. Ik ben afgestapt van de sliders en ik maak nu gebruik van de mouse scroll om de strokeWeight te bedienen. Ook wanneer de pagina wordt gerefresht wordt er een willekeurig kunstwerk getoond. Verder kan er nog op de knop 'S' gedrukt worden om het kunstwerk als afbeelding op te slaan.
 
 ## Onderzoek & inspiratie
 Ik begon met het idee voor custom schoenen te maken. Ik kwam er al snel achter dat dit niet helemaal precies was wat ik in gedachten had en toen werd ik geinspireerd door een video waarin een afbeelding gegenereerd werd. Ik deed dit zelf eerst met de schoen maar ik vond het cooler om een echt kunstwerk te nemen en deze generatief te maken.
@@ -43,6 +46,11 @@ Als laatste voegde ik een functie toe om je eigen customisation van het kunstwer
 ![Custom Sterrennacht](https://user-images.githubusercontent.com/59015908/118888276-be10b480-b8fb-11eb-9415-d08ed8958878.png)
 
 Het coderen zelf hiervan ging mij ook wel aardig goed af, ook al was het wel soms even struggelen, veel tutorial videos kijken en googelen.
+
+### Voortgang voor herkansing
+Ik kreeg duidelijke feedback te horen over wat ik moest veranderen. Deze veranderingen gingen mij goed af en ik ben blij met het nieuwe resultaat. Ik heb alle elementen nu ook gecentreerd zodat het de gebruiker op elk device dezelfde ervaring met het kunstwerk heeft.
+
+![Screenshot 2021-06-20 at 21 19 17](https://user-images.githubusercontent.com/59015908/122685667-30332c80-d20d-11eb-9bda-66f19306d63c.png)
 
 ## Bronnenlijst
 
