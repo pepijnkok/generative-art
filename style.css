@@ -6,7 +6,7 @@
 
   box-sizing: border-box;
 
-  background-image: url(images/background.jpeg);
+  background-image: url(images/background4.jpeg);
   background-repeat: no-repeat;
   background-size: auto;
 
@@ -17,33 +17,32 @@
 
 h1{
   background-image: none;
+
   padding: .5em;
   z-index: 2;
+
   font-family: 'Handlee', cursive;
   color: white;
 }
 
 .center{
+  background-image: none;
+
   position: absolute;
-  top: 0;
+  top: 75%;
   width: 97%;
-  height: 160%;
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.frame {
-position: absolute;
-margin: 0 18em;
-width: 60%;
-z-index: 1;
-}
-
 canvas {
-  margin: 4em 22em;
   position: absolute;
-  
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   border-radius: 0.2em;
   border-color: green;
   border-style: solid;
