@@ -45,6 +45,7 @@ function draw() {
   }
 }
 
+//Mouse scroll controls the strokeweight and background
 function mouseWheel(event) {
  if(size * event.deltaY <= 0) {
   
