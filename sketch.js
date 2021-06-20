@@ -23,7 +23,9 @@ function preload(){
 
 //Setup only runs once
 function setup() {
-createCanvas(750, 500);
+createCanvas(700, 420);
+
+background(255, 204, 0);
 
 //Making a slider for the points of the image
 sliderPoint = createSlider(0, 20, 0);
