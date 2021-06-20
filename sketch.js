@@ -1,6 +1,7 @@
 let img;
 let cnv;
 let slider;
+let size = 5;
 
 function preload(){
   
@@ -25,30 +26,10 @@ function preload(){
 function setup() {
 createCanvas(700, 420);
 
-background(255, 204, 0);
-
-//Making a slider for the points of the image
-sliderPoint = createSlider(0, 20, 0);
-sliderPoint.position(800, 585);
-
-sliderPoint.style('width', '200px');
-sliderPoint.style ('z-index: +10')
-
-//Making a slider for the background of the image
-sliderBackground = createSlider(0, 255, 255);
-sliderBackground.position(450, 585);
-
-sliderBackground.style('width', '200px');
-sliderBackground.style ('z-index: +10')
 }
 
 //Draw loops endlessly
 function draw() {
-
-  //Assigning the sliders 
-  let valPoint = sliderPoint.value();
-  let valBackground = sliderBackground.value();
-  background(valBackground);
 
   //Acces pixel information of the image
   for(let col = 0; col< img.width; col+=10){
@@ -57,11 +38,25 @@ function draw() {
       let yPos = row;
       let c = img.get(xPos,yPos);
 
-      strokeWeight(valPoint);
+      strokeWeight(size);
       stroke(color(c));
       point(xPos,yPos); 
     }
   }
+}
+
+function mouseWheel(event) {
+ if(size * event.deltaY <= 0) {
+  
+   size = 5;
+ } 
+ 
+ else {
+   size = size + 1;
+   image(img, width, height);
+ }
+ strokeWeight(size)
+ background(size);
 }
 
 //If you press 'S' you will save the image as a .jpg
