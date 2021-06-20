@@ -6,9 +6,9 @@
 
   box-sizing: border-box;
 
-  background-image: url(images/background4.jpeg);
+  background-image: url(images/background.jpeg);
   background-repeat: no-repeat;
-  background-size: 100em;
+  background-size: auto;
 
    
     justify-content: center;
@@ -17,15 +17,20 @@
 
 h1{
   background-image: none;
-
-  position: absolute;
-  margin: 16.5em 15em;
   padding: .5em;
   z-index: 2;
-
   font-family: 'Handlee', cursive;
-  text-align: center;
   color: white;
+}
+
+.center{
+  position: absolute;
+  top: 0;
+  width: 97%;
+  height: 160%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .frame {
