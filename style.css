@@ -6,9 +6,13 @@
 
   box-sizing: border-box;
 
-  background-image: url(images/background.jpeg);
+  background-image: url(images/background4.jpeg);
   background-repeat: no-repeat;
   background-size: 100em;
+
+   
+    justify-content: center;
+    align-items: center;
   }
 
 h1{
